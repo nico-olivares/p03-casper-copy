@@ -1,0 +1,47 @@
+@media (max-width: 1010px) {
+	/* makes phone number in header 3 disappear */
+	.title-three-right svg:first-child + p {
+		display: none;
+	}
+
+	/* blue photo in the main-top disappears */
+	.top-photo-one > img {
+		width: 100vw;
+	}
+	.top-photo-two {
+		display: none;
+	}
+
+	/* Text size for the why section */
+	.why-text-top {
+		font-size: 3.5vw;
+	}
+
+	.why-text-subtitle {
+		font-size: 2.5vw;
+	}
+
+	.why-text-body {
+		font-size: 1.25vw;
+	}
+
+	.why-text-footer {
+		font-size: 1vw;
+	}
+
+	/* Get rid of a meet card */
+	.meet > div:first-child {
+		display: none;
+	}
+
+	/* Makes first footer disappear */
+	.foot-one {
+		display: none;
+	}
+}
+
+@media (max-width: 800px) {
+	.meet > div:nth-child(2) {
+		display: none;
+	}
+}
